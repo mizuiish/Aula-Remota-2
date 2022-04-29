@@ -37,5 +37,4 @@ for (let contador = 1; contador < listaDeAlunos.length; contador++) {
     }
 }
 
-//como removi o 0 no contador também removi o if que considerava o valor 0, 
-//deixando apenas o if e else para testar as condições
+//como removi o 0 no contador também removi o if que considerava o valor 0, deixando apenas o if e else para testar as condições
