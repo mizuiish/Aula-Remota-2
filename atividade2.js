@@ -9,12 +9,14 @@ let idade = 18
 // let nome = "Marcos"
 // let idade = 17
 
-let participantes = ["Amanda", " Jéssica", " Pedro", " Maurício", " Ricardo"]
+let participantes = ["Amanda", "Jéssica", "Pedro", "Maurício", "Ricardo"]
 
 let listaDePalestras = ["Versionamento", "Fundamentos de Tecnologia da Informação e Comunicação", "Saúde e Segurança no Trabalho", "Metodologias Ágeis"]
 
 if (idade >= 18 && participantes.length <= 100) {
-    console.log("Cadastro feito com sucesso! Essa é a lista de palestras disponíveis: " +listaDePalestras + ". Esses são os participantes cadastrados: " + participantes + ".")
+    console.log("Cadastro feito com sucesso!")
+    console.log(`Essa é a lista de palestras disponíveis: ${listaDePalestras}.`)
+    console.log(`Esses são os participantes cadastrados: ${participantes.sort()}.`)
 }
 else if (idade >=18 && participantes.length > 100){
     console.log("Não há mais vagas para inscrição.")
